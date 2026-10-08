@@ -231,8 +231,7 @@ Apache Spark framework provides an open-source distributed computation engine de
 Joblib is a pacakge for parallel computing and disk-based caching in Python. It simplifies the creation of pipelines which can orchestrate multi-step analyses. It is also optimized to be fast and robust on large data in particular, and has specific optimizations for _numpy_ arrays.
 
 ## Sources
--[Python Multiprocessing Example: Process, Pool, and Queue](https://www.golinuxcloud.com/python-multiprocessing/)
--[Dask vs Spark vs Ray: Choosing the right distributed computing framework]
-(https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
--[Parallel in Python](https://docs.ycrc.yale.edu/parallel_python/)
--[Joblib Documentation](https://joblib.readthedocs.io/en/stable/)
+- [Python Multiprocessing Example: Process, Pool, and Queue](https://www.golinuxcloud.com/python-multiprocessing/)
+- [Dask vs Spark vs Ray: Choosing the right distributed computing framework](https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
+- [Parallel in Python](https://docs.ycrc.yale.edu/parallel_python/)
+- [Joblib Documentation](https://joblib.readthedocs.io/en/stable/)
