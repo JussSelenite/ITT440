@@ -214,3 +214,7 @@ if __name__ == "__main__":
 ```
 It's useful when each task needs several parameters.
 Output:```[6, 20, 42]```
+
+
+## Sources
+[Python Multiprocessing Example: Process, Pool, and Queue](https://www.golinuxcloud.com/python-multiprocessing/)
