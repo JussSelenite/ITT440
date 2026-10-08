@@ -215,6 +215,24 @@ if __name__ == "__main__":
 It's useful when each task needs several parameters.
 Output:```[6, 20, 42]```
 
+## Frameworks used in Python
+Several frameworks have been made for multiprocessing, including **Dask**, **Ray**, **Spark**, and **Joblib**.
+
+### Dask
+A pure Python parallel computing library first released in 2015 by Continuum Analytics (now Anaconda). It has a single design principle: make distributed computation feel like native Python. At its core, Dask build task graphs, directed acylic graphs (DAG) where each node is a Python callable and each edge is a data dependency. Dask distributed extends this model across multiple machines, supporting DataFrames, arrays, and bags with a lightweight configuration foorprint.
+
+### Ray
+A distributed computing framework from UC Berkeley, designed to geenralize parallel computing across any Python application. It provides Ray tasks (remote functions) and actors (stateful distributed processes) that can run across a ray cluster of any size and hardware composition. Ray has also become a standard infrastructure layer for large language model (LLM) workloads.
+
+### Spark
+Apache Spark framework provides an open-source distributed computation engine developed at UC Berkeley's AMPLab, since 2009. It represents an immutable, fault-tolerant collection of data partitioned across a cluster. Spark is written in Scala, with PySpark providing Python bindings. For data engineering and large scale data processing, Spark remains the most mature and commercially supported option.
+
+### Joblib
+Joblib is a pacakge for parallel computing and disk-based caching in Python. It simplifies the creation of pipelines which can orchestrate multi-step analyses. It is also optimized to be fast and robust on large data in particular, and has specific optimizations for _numpy_ arrays.
 
 ## Sources
-[Python Multiprocessing Example: Process, Pool, and Queue](https://www.golinuxcloud.com/python-multiprocessing/)
+-[Python Multiprocessing Example: Process, Pool, and Queue](https://www.golinuxcloud.com/python-multiprocessing/)
+-[Dask vs Spark vs Ray: Choosing the right distributed computing framework]
+(https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
+-[Parallel in Python](https://docs.ycrc.yale.edu/parallel_python/)
+-[Joblib Documentation](https://joblib.readthedocs.io/en/stable/)
