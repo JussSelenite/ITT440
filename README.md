@@ -216,7 +216,7 @@ It's useful when each task needs several parameters.
 Output:```[6, 20, 42]```
 
 ## Frameworks used in Python
-Several frameworks have been made for multiprocessing, including **Dask**, **Ray**, **Spark**, and **Joblib**.
+Several frameworks have been made for multiprocessing, including **Dask**, **Ray**, **Spark**, and **Joblib**. [This video](https://youtu.be/gP78DhjAEzY) shows a demonstration for the 4 frameworks.
 
 ### Dask
 A pure Python parallel computing library first released in 2015 by Continuum Analytics (now Anaconda). It has a single design principle: make distributed computation feel like native Python. At its core, Dask build task graphs, directed acylic graphs (DAG) where each node is a Python callable and each edge is a data dependency. Dask distributed extends this model across multiple machines, supporting DataFrames, arrays, and bags with a lightweight configuration foorprint.
